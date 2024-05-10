@@ -8,7 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="author" href="https://plus.google.com/u/1/+SaptheshV/" />
 	<meta name="keywords" content="Birthday, Happy">
-
+	<title>Happy Birthday</title>
 	<!-- Strat of Facebook Meta -->
 	<meta property="og:type" content="E-Greeting" />
 	<meta property="og:image" content="favicon.ico" />
@@ -25,7 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/loading.css">
 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet/less" href="./css/cake.less">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
 </head>
 
 <body>
@@ -35,33 +35,35 @@
 		</source>
 		Your browser isn't invited for super fun audio time.
 	</audio>
-	<div class="balloons text-center" id="b1">
-		<h2 style="color:#F2B300;">H</h2>
-	</div>
-	<div class="balloons text-center" id="b2">
-		<h2 style="color:#0719D4;">B</h2>
-	</div>
-	<div class="balloons text-center" id="b3">
-		<h2 style="color:#D14D39;">D</h2>
-	</div>
-	<div class="balloons text-center" id="b4">
-		<h2 style="color:#8FAD00;">B</h2>
-	</div>
-	<div class="balloons text-center" id="b5">
-		<h2 style="color:#F2B300;">A</h2>
-	</div>
-	<div class="balloons text-center" id="b6">
-		<h2 style="color:#8377E4;">Đ</h2>
-	</div>
-	<div class="balloons text-center" id="b7">
-		<h2 style="color:#99C96A;">Ặ</h2>
-	</div>
-	<div class="balloons text-center" id="b8">
-		<h2 style="color:#20CFB4;">N</h2>
-	</div>
-	<div class="balloons text-center" id="b9">
-		<h2 style="color:#cf20b2;">G</h2>
-	</div>
+	<div class="ball_system">
+		<div class="balloons text-center" id="b1">
+			<h2 style="color:#F2B300;">H</h2>
+		</div>
+		<div class="balloons text-center" id="b2">
+			<h2 style="color:#0719D4;">B</h2>
+		</div>
+		<div class="balloons text-center" id="b3">
+			<h2 style="color:#D14D39;">D</h2>
+		</div>
+		<div class="balloons text-center" id="b4">
+			<h2 style="color:#8FAD00;">B</h2>
+		</div>
+		<div class="balloons text-center" id="b5">
+			<h2 style="color:#F2B300;">A</h2>
+		</div>
+		<div class="balloons text-center" id="b6">
+			<h2 style="color:#8377E4;">Đ</h2>
+		</div>
+		<div class="balloons text-center" id="b7">
+			<h2 style="color:#99C96A;">Ặ</h2>
+		</div>
+		<div class="balloons text-center" id="b8">
+			<h2 style="color:#20CFB4;">N</h2>
+		</div>
+		<div class="balloons text-center" id="b9">
+			<h2 style="color:#cf20b2;">G</h2>
+		</div>
+		</div>
 	
 
 	<img src="./assets/Balloon-Border.png" width="100%" class="balloon-border">
@@ -110,23 +112,27 @@
 			</div>
 		</div>				
 		
+		<center>
+			<button id="turn_on" class="shadow__btn">
+				Bật Đèn
+			</button>		  
+		</center>
+
 		<div class="navbar navbar-fixed-bottom">
 			
 			<div class="row">
 				
 				<div class="col-md-6 text-center col-md-offset-3">
 					
-					<button class="btn btn-primary" id="turn_on">Bật Đèn</button>
 					<div id="play"></div>  
 					<div id="bannar_coming"></div>
 					<div id="balloons_flying"></div>
 					<div id="cake_fadein"></div>
 					<div id="light_candle"></div>
 					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
-					<a href="#">
-						<button class="btn btn-primary" id="story">A mesage for you</button>
+					<a href="https://www.greetingsisland.com/ecard/px2hvfg02c5n">
+						<button class="btn btn-primary" id="story">Lời Nhắn</button>
 					</a>
-					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
 				</div>
 			</div>
 		</div>
@@ -136,6 +142,6 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="effect.js"></script>
+<script src="./script/effect.js"></script>
 
 </html>
